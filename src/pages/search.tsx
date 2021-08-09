@@ -46,7 +46,7 @@ const search: NextPage<Props> = ({ searchResults }) => {
 						<p className="button">More filters</p>
 					</div>
 
-					<div className="flex">
+					<div className="">
 						{searchResults.map((el, i) => (
 							<InfoCard
 								key={i}
